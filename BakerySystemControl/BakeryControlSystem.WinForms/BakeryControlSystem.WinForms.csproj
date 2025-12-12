@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BakeryControlSystem.Data\BakeryControlSystem.Data.csproj" />
+    <ProjectReference Include="..\BakeryControlSystem.Domain\BakeryControlSystem.Domain.csproj" />
+    <ProjectReference Include="..\BakeryControlSystem.Helpers\BakeryControlSystem.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
